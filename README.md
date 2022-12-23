@@ -1,8 +1,6 @@
 # Seiza
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/seiza`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem shows zodiac sign from Time object.
 
 ## Installation
 
@@ -16,7 +14,27 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Time.new(1991, 07, 02).seiza # => "cancer"
+Time.new(1991, 07, 02).zodiac_sign # => "cancer"
+```
+
+## Zodiac sign list
+
+|sign|name|date|
+|---|---|---|
+|♈️|aries|3/21-4/19|
+|♉️|taurus|4/20-5/20|
+|♊️|gemini|5/21-6/21|
+|♋️|cancer|6/22-7/22|
+|♌️|leo|7/23-8/22|
+|♍️|vergo|8/23-9/22|
+|♎️|libra|9/23-10-23|
+|♏️|scorpio|10/24-11/22|
+|♐️|sagittarius|11/23-12/21|
+|♑️|capricorn|12/22-1/19|
+|♒️|aquarius|1/20-2/18|
+|♓️|pisces|2/19-3/20|
 
 ## Development
 
