@@ -29,7 +29,7 @@ Time.new(1991, 07, 02).zodiac_sign # => "cancer"
 |♋️|cancer|6/22-7/22|
 |♌️|leo|7/23-8/22|
 |♍️|vergo|8/23-9/22|
-|♎️|libra|9/23-10-23|
+|♎️|libra|9/23-10/23|
 |♏️|scorpio|10/24-11/22|
 |♐️|sagittarius|11/23-12/21|
 |♑️|capricorn|12/22-1/19|
