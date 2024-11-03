@@ -15,7 +15,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 ## Usage
 
 ```ruby
-Time.new(1991, 07, 02).seiza # => "cancer"
+Time.new(1991, 07, 02).seiza # => "蟹座"
 Time.new(1991, 07, 02).zodiac_sign # => "cancer"
 Time.new(1991, 07, 02).zodiac_sign_emoji # => "♋️"
 ```
